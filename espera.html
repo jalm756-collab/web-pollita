@@ -8,8 +8,7 @@
 
 <body>
 
-<!-- 🎵 MÚSICA ROMÁNTICA -->
-<audio autoplay loop>
+<audio id="musica" loop>
   <source src="y-asi-empezo.mp3" type="audio/mpeg">
 </audio>
 
@@ -26,10 +25,14 @@
     Y recuerda cómo empezó todo… 🌻
   </p>
 
-  <p>
-    A veces, el amor no necesita palabras.<br>
+  <p class="love-text">
+    A veces el amor no necesita palabras.<br>
     Solo presencia.
   </p>
+
+  <a href="#" onclick="document.getElementById('musica').play()" class="button-love">
+    Escuchar otra vez 💛
+  </a>
 </div>
 
 </body>
